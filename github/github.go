@@ -22,8 +22,8 @@ import (
 )
 
 const (
-	libraryVersion = "0.1"
-	defaultBaseURL = "https://api.github.com/"
+	libraryVersion = "0.1.1"
+	DefaultBaseURL = "https://api.github.com/"
 	userAgent      = "go-github/" + libraryVersion
 
 	headerRateLimit     = "X-RateLimit-Limit"
